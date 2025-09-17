@@ -1,7 +1,7 @@
 # daily_update.py
 from datetime import datetime
 
-def mai():
+def main():
     today = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"Hello GitHub! Today is {today}")
 
